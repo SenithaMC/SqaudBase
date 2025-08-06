@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Squad Base - Bedwars Server</title>
+  <link rel="icon" href="/favicon.png" type="image/png" />
+
+  <!-- Font Awesome CDN -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Basic CSS -->
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container" role="main" aria-label="Minecraft Bedwars Server Website">
+    <h1>Squad Base</h1>
+    <p
+      class="ip"
+      id="server-ip"
+      tabindex="0"
+      aria-label="Server IP address, click to copy"
+      role="textbox"
+      title="Click to copy IP"
+    >
+      squadbase.game4free.net
+      <span class="tooltip" id="tooltip">Copied!</span>
+    </p>
+
+    <div id="status-container" aria-live="polite" aria-atomic="true">
+      <div class="status" id="mc-status" aria-label="Minecraft server status">
+        <i class="fa-solid fa-circle-notch fa-spin"></i> Loading server status...
+      </div>
+    </div>
+
+    <section class="rules" aria-label="Server rules">
+      <h2>Server Rules</h2>
+      <ul>
+        <li><i class="fa-solid fa-shield-halved"></i> Be respectful to other players</li>
+        <li><i class="fa-solid fa-ban"></i> No cheating or hacking</li>
+        <li><i class="fa-solid fa-gamepad"></i> Have fun and play fair</li>
+        <li><i class="fa-solid fa-bug"></i> Report bugs or issues in our Discord</li>
+      </ul>
+    </section>
+
+    <div class="reward" aria-live="polite" aria-atomic="true">
+      <i class="fa-solid fa-gem"></i>
+      For visiting this website you will be rewarded with <strong>20 diamonds</strong>!
+    </div>
+  </div>
+
+  <script src="/scripts.js"></script>
+</body>
+</html>
